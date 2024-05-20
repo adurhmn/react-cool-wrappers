@@ -3,7 +3,7 @@ import { Wrapper, Background } from "./GradientBorder.style";
 
 const GradientBorder: FC<{
   children: ReactNode;
-  padding?: string;
+  size?: string;
   borderRadius?: string;
   blur?: string;
   colors: string[];
@@ -12,7 +12,7 @@ const GradientBorder: FC<{
   attrs?: HTMLAttributes<HTMLDivElement>;
 }> = function ({
   children,
-  padding = "10px",
+  size = "10px",
   borderRadius = "10px",
   blur = "16px",
   colors,
@@ -21,7 +21,7 @@ const GradientBorder: FC<{
   attrs = {},
 }) {
   return (
-    <Wrapper padding={padding} borderRadius={borderRadius} {...attrs}>
+    <Wrapper padding={size} borderRadius={borderRadius} {...attrs}>
       <Background
         colors={colors}
         blur={blur}
