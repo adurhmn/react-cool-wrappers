@@ -1,6 +1,6 @@
 {
   "name": "react-cool-wrappers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight component wrappers with gradient colors and animations.",
   "types": "dist/index.d.ts",
   "main": "dist/react-cool-wrappers.cjs.js",
