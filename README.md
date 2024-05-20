@@ -14,11 +14,9 @@
 
 Make sure to install peer dependencies! Below are the list of peer dependencies.
 
-- `react >= 18`
-- `react >= 18`
-- `styled-components >= 6`
-
-Support for lower versions of peer deps will be added soon!
+- `react >=16.14.0 <=18.3.1`
+- `react-dom >=16.14.0 <=18.3.1`
+- `styled-components >=4.4.1 <=6`
 
 ## APIs
 
