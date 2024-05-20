@@ -19,7 +19,7 @@
     "watch-package": "rollup -c -w",
     "build-package": "rollup -c",
     "build-package:clean": "rm -rf dist && rollup -c",
-    "publish": "pnpm publish"
+    "publish-package": "pnpm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -68,9 +68,9 @@
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "react": ">= 18",
-    "react-dom": ">= 18",
-    "styled-components": ">= 6"
+    "react": ">=16.14.0 <=18.3.1",
+    "react-dom": ">=16.14.0 <=18.3.1",
+    "styled-components": ">=4.4.1 <=6"
   },
   "publishConfig": {
     "access": "public"
