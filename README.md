@@ -17,6 +17,7 @@ Make sure to install peer dependencies! Below are the list of peer dependencies.
 - `react >=16.14.0 <=18.3.1`
 - `react-dom >=16.14.0 <=18.3.1`
 - `styled-components >=4.4.1 <=6`
+- `tslib>=2`  will be removed soon!
 
 ## APIs
 
