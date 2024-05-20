@@ -10,6 +10,16 @@
 - Animation support
 - Customizable colors and animations
 
+## Peer Dependencies
+
+Make sure to install peer dependencies! Below are the list of peer dependencies.
+
+- `react >= 18`
+- `react >= 18`
+- `styled-components >= 6`
+
+Support for lower versions of peer deps will be added soon!
+
 ## APIs
 
 ### GradientBorder
