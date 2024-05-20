@@ -1,0 +1,47 @@
+{
+	"include": ["src/**/*"],
+	"compilerOptions": {
+		"outDir": "dist",
+		"target": "ES5",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"jsx": "react-jsx",
+		// optimised
+		"removeComments": true,
+		// non-strict rules
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"noImplicitAny": false,
+		"allowUnreachableCode": true,
+		"alwaysStrict": false,
+		"strict": true,
+		// strict rules
+		// "suppressImplicitAnyIndexErrors": true,
+		"noImplicitReturns": false,
+		"noImplicitThis": true,
+		// other
+		"isolatedModules": true,
+		"allowJs": true,
+		"checkJs": false,
+		"skipLibCheck": true,
+		"sourceMap": false,
+		"resolveJsonModule": true,
+		// good pratice
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"importHelpers": true,
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"baseUrl": "./"
+	},
+	"typeRoots": ["node_modules/@types"],
+	"exclude": [
+		"node_modules",
+		"**/node_modules",
+		"dist",
+		"**/dist",
+	],
+}

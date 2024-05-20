@@ -1,0 +1,78 @@
+{
+  "name": "react-cool-wrappers",
+  "version": "0.0.1",
+  "description": "Lightweight component wrappers with gradient colors and animations.",
+  "types": "dist/index.d.ts",
+  "main": "dist/react-cool-wrappers.cjs.js",
+  "jsnext:main": "dist/react-cool-wrappers.esm.js",
+  "module": "dist/react-cool-wrappers.esm.js",
+  "sideEffects": false,
+  "browser": {
+    "./dist/react-cool-wrappers.esm.js": "./dist/react-cool-wrappers.browser.esm.js",
+    "./dist/react-cool-wrappers.cjs.js": "./dist/react-cool-wrappers.browser.cjs.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-package": "rollup -c -w",
+    "build-package": "rollup -c",
+    "build-package:clean": "rm -rf dist && rollup -c",
+    "publish": "pnpm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adurhmn/react-cool-wrappers.git"
+  },
+  "keywords": [
+    "React",
+    "Gradient",
+    "Border",
+    "Gradient",
+    "Shadow",
+    "Gradient",
+    "Animation",
+    "Gradient",
+    "Wrappers",
+    "Linear",
+    "Gradient",
+    "Wrapper."
+  ],
+  "author": "Abdur Rahman <abdurmrahman7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adurhmn/react-cool-wrappers/issues"
+  },
+  "homepage": "https://github.com/adurhmn/react-cool-wrappers#readme",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/react": "^18.3.2",
+    "postcss-import": "^15.0.0",
+    "postcss-sass": "^0.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^3.2.5",
+    "rollup-plugin-bundle-scss": "^0.1.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-visualizer": "^5.8.3",
+    "styled-components": "^6.1.11",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": ">= 18",
+    "react-dom": ">= 18",
+    "styled-components": ">= 6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
